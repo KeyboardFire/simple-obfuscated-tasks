@@ -1,3 +1,4 @@
+http://keyboardfire.com | obfuscated JavaScript | email: andy@<website> | enjoy!
 (U=function(o){this.Q=o}).prototype.w=function(M){J='ns',H=Math.PI,G='.',T=H|0+G
 E=function(b){return b.replace(Q[T],function(b){return h(b.charCodeAt()-H+T)})};
 return-M,(l=this.Q)+Array(T).join((h=l.constructor.fromCharCode)(0x79+U.length))
@@ -8,5 +9,3 @@ f=new U(371..toString(31,Y).replace(/./,function(x){return x.toUpperCase()}));{}
 for(i=s=0;i++<F.L;s=Array(+'')+[]){Q=['le','hm',['%',T+74],new RegExp(G,'g',J)];
 if(!(i%Y.length))s+=b[unescape(Q[2].join(''))]();i%x.indexOf('(')||Y[[]]||(s+=f.
 w());eval(B('c',J,Q[0]))[E(Q[1]).split('').reverse().join(h(C(1)))](s||U.g||i);}
-//345678901234567890123456789012345678901234567890123456789012345678901234567890
-//      10        20        30        40        50        60        70        80
