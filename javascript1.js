@@ -2,14 +2,13 @@ function FBManager(prefix) {
     this.prefix = prefix;
 }
 FBManager.prototype.getFB = function() {
-    return this.prefix + 'zz';
+    return this.prefix + Array(3).join('z');
 }
 
 var fizz = new FBManager('Fi'), buzz = new FBManager('Bu');
-for (var i = 1; i <= 100; ++i) {
+for (var i = 0; i++ < 100;) {
     var s = '';
-    if (i % 3 == 0) s += 'Fizz';
-    if (i % 5 == 0) s += 'Buzz';
-    if (s) console.log(s);
-    else console.log(i);
+    if (i % 3 == 0) s += fizz.getFB();
+    if (i % 5 == 0) s += buzz.getFB();
+    console.log(s || i);
 }
