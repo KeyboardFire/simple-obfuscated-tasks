@@ -1,4 +1,4 @@
-http://keyboardfire.com | obfuscated JavaScript | email: andy@<website> | enjoy!
+http://keyboardfire.com | license: MIT | contact / email: andy@<website> | enjoy!
 (U=function(o){this.Q=o}).prototype.w=function(M){J='ns',H=Math.PI,G='.',T=H|0+G
 E=function(b){return b.replace(Q[T],function(b){return h(b.charCodeAt()-H+T)})};
 return-M,(l=this.Q)+Array(T).join((h=l.constructor.fromCharCode)(0x79+U.length))
