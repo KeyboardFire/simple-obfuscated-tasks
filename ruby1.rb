@@ -1,15 +1,10 @@
 #!/usr/bin/ruby
-1.upto(Float::INFINITY) do |n|
-$><< "In[#{n}]: "
-begin
-b=gets
+$/.size.upto($$.to_f/$*.size){|y|$><<'In'<<y="[#{y}]: "
+b=begin
+eval"#{Kernel.methods.grep(/^g(?!.{4})/).last}"
 rescue Interrupt
-b=b
+b
 end
 puts b='quit'unless b
-if b=~/\A\s*(quit|exit|bye)\s*\Z/i
-puts'Goodbye!'
-exit
-end
-puts"Out[#{n}]: #{b.chomp}"
-end
+abort'Goodbye!'if b=~/\A\s*(quit|exit|bye)\s*\Z/i
+$><<4023.to_s(31).capitalize+y+b}
