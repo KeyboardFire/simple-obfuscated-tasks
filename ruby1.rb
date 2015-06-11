@@ -1,4 +1,4 @@
-#!/usr/bin/ruby -I '<licence: MIT> || <contact / email: andy@keyboardfire.com>'
+#!/usr/bin/ruby -I '<<<licence:MIT>>><<<contact/email:andy@keyboardfire.com>>>'
 $/.size.upto($$.to_f/$*.size){|y|$><<Math.constants.map{|o|o.inspect[2]}
 .compact.sort.join.sub(/.$/){|k|k.ord.pred.chr}<<y="[#{y}]: ";([(?z*3).sub(/./,
 ?c)]+$$.class.methods.grep(/([l-ps-u]|^c){5}[^^-`](?!d)/).map{|x|"#{x}"[-2..-1
